@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const { Schema } = mongoose;
 
-const facialHairSchema = new Schema({
+const facialhairSchema = new Schema({
     name: {
       type: String,
       required: true,
@@ -21,4 +21,6 @@ const facialHairSchema = new Schema({
     }
   });
 
-  const facialHair = mongoose.model('category', categorySchema)
+  const facialhair = mongoose.model('Facialhair', facialhairSchema);
+
+  module.exports = Facialhair;

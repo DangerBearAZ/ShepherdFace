@@ -1,4 +1,4 @@
 const User = require('./User');
-const facialHair = require('./Facialhair')
+const facialhair = require('./Facialhair')
 
 module.exports = { User };
